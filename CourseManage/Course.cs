@@ -10,5 +10,11 @@ namespace CourseManage
     {
         public int Cid { get;set; }
         public string Name { get;set; }
+
+        public Course(int cid, string name)
+        {
+            Cid = cid;
+            Name = name;
+        }
     }
 }
